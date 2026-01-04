@@ -202,7 +202,7 @@ export abstract class ProtectCore extends TwinkleModule {
 			// $.when.apply is supposed to take an unknown number of promises
 			// via an array, which it does, but the type of data returned varies.
 			// If there are two or more deferreds, it returns an array (of objects),
-			// but if there's just one deferred, it retuns a simple object.
+			// but if there's just one deferred, it returns a simple object.
 			// This is annoying.
 			protectData = $(protectData).toArray();
 
